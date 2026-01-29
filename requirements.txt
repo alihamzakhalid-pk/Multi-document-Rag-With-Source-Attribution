@@ -1,0 +1,33 @@
+# Multi-Document RAG System Dependencies
+
+# Core Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# Vector Store
+chromadb==0.4.22
+numpy<2.0  # Required for ChromaDB compatibility
+
+# Embeddings
+sentence-transformers==2.3.1
+
+# LLM Integration
+groq==0.4.2
+
+# Document Processing
+pypdf==4.0.1
+python-docx==1.1.0
+docx2pdf==0.1.8  # Converts DOCX to PDF for accurate page numbers (requires MS Word)
+
+# Data Validation
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Utilities
+python-dotenv==1.0.0
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.3
+httpx==0.26.0
