@@ -21,15 +21,19 @@ A production-grade **Retrieval-Augmented Generation (RAG)** system that answers 
 
 ### Step 1: Install Dependencies
 
-```powershell
-# Navigate to project
-cd "c:\Users\HP machine\OneDrive\Desktop\Projcts\Multi"
+```bash
+# Clone the repository
+git clone https://github.com/alihamzakhalid-pk/Multi-document-Rag-With-Source-Attribution.git
+cd Multi-document-Rag-With-Source-Attribution
 
 # Create virtual environment (first time only)
 python -m venv venv
 
 # Activate virtual environment
+# Windows:
 .\venv\Scripts\Activate
+# Linux/Mac:
+source venv/bin/activate
 
 # Install packages
 pip install -r requirements.txt
